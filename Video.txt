@@ -1,0 +1,7 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+INICIAR EL SERVIDOR PARA HACER PRUEBAS
+
+npm run dev
+
+Ejecutar en la terminal para comenzar el proyecto.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

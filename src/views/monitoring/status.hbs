@@ -1,0 +1,84 @@
+<!-- Estatus -->
+<section class="container row py-3 mx-auto">
+    <div class="card col-12">
+        <div class="card-header">
+            <h2>Estatus <span id="status_InstanceName" class="badge badge-secondary">Dormitorio</span></h2>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                        <th scope="col">Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="trLight" class="animation-bg">
+                        <td class="font-weight-bold">Iluminación</td>
+                        <td id="status_IlluminationText"></td>
+                        <td><button id="btnTurnOnLighting" type="button"
+                                class="btn btn-block btn-warning text-white">Encender</button>
+                        </td>
+                    </tr>
+                    <tr id="trTemperature" class="animation-bg">
+                        <td class="font-weight-bold">Refrigeración</td>
+                        <td id="status_RefrigerationText"><span id="txtTemp">31</span>°C</td>
+                        <td><button id="btnTurnOnRefrigeration" type="button"
+                                class="btn btn-block btn-primary">Encender</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- Instancias y opciones generales -->
+<div class="container row mx-auto">
+    <!-- Instancias -->
+    <section class="container py-3 col-12 col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <h2>Instancias</h2>
+            </div>
+            <div class="card-body">
+                <div class="list-group">
+                    <button id="instances" class=" list-group-item list-group-item-action active">
+                        Dormitorio
+                    </button>
+                    <button id="instances" class="list-group-item list-group-item-action">Cocina</button>
+                    <button id="instances" class="list-group-item list-group-item-action">Sala</button>
+                    <button id="instances" class="list-group-item list-group-item-action">Comedor</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Opciones generales -->
+    <section class="container py-3 col-12 col-lg-6 ">
+        <div class="card">
+            <div class="card-header">
+                <h2>Opciones generales</h2>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Iluminación</th>
+                            <th scope="col">Refrigeración</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><button type="button" class="btn btn-block btn-warning text-white">Encender todo</button></td>
+                            <td><button type="button" class="btn btn-block btn-primary">Encender todo</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><button type="button" class="btn btn-block btn-secondary">Apagar todo</button></td>
+                            <td><button type="button" class="btn btn-block btn-secondary">Apagar todo</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
